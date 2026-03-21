@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary:   #0A1A5C;  /* deep navy — backgrounds, headers */
+    --color-accent:    #1A48C4;  /* royal blue — buttons, links */
+    --color-highlight: #4A9AD4;  /* sky blue — hover states, icons */
+    --color-light:     #EEF4FB;  /* foam white — light backgrounds */
+    --color-muted:     #B8D8EE;  /* wave mist — borders, subtle fills */
+
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-body:    'Barlow', sans-serif;
+}
+
+body {
+font-family: var(--font-body);
+}
+
+h1, h2, h3{
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+}
+
+header, footer, main {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav, p, section, article {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img{
+    width: 50px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(from var(--color-light) r g b / 0.5);
+    top: 3%;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    background-color: rgb(from var(--color-highlight) r g b / 0.5);
+    top: 10%;
+    height: 85%;
+    color: var(--color-light);
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img{
+    width: 100%;
+    float: right;
+}
