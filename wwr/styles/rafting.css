@@ -6,13 +6,11 @@
 
 :root {
     --color-primary:   #0A1A5C;  /* deep navy — backgrounds, headers */
-    --color-accent:    #1A48C4;  /* royal blue — buttons, links */
     --color-highlight: #4A9AD4;  /* sky blue — hover states, icons */
     --color-light:     #EEF4FB;  /* foam white — light backgrounds */
-    --color-muted:     #B8D8EE;  /* wave mist — borders, subtle fills */
 
-    --font-heading: 'Bebas Neue', sans-serif;
-    --font-body:    'Barlow', sans-serif;
+    --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-body:    Arial, Helvetica, sans-serif;
 }
 
 body {
