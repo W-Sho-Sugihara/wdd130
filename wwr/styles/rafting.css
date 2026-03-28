@@ -32,16 +32,41 @@ nav, p, section, article {
     padding: 0.5rem;
 }
 
-.socialmedia a {
+/* HEADER */
+
+header {
+    background-color: var(--color-highlight);
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav li {
+    min-width: 110px;
+    text-align: center;
+    list-style: none;
+    background-color: #EEF4FB;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+header nav a {
     text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
 
-.socialmedia img{
-    width: 50px;
-}
+/* MAIN */
 
+/* DIV HERO */
 .hero {
     position: relative;
+    margin-top: 10px;
 }
 
 .hero h1{
@@ -72,3 +97,94 @@ nav, p, section, article {
     width: 100%;
     float: right;
 }
+
+/* SECTION HISTORY*/
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    margin: 10px 0;
+}
+.history h2 {
+    text-align: center;
+
+}
+
+.history img {
+    width: 180px;
+    height: auto;
+}
+
+/* SECTION ADVENTURE*/
+.adventure {
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding: 40px 0;
+}
+
+.adventure h2{
+    text-align: center;
+}
+
+.con-figures {
+    gap: 15px;
+}
+
+.con-figures figure{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+.adventure figure img{
+    width: auto;
+    min-width: 130px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--color-highlight);
+    color: var(--color-light);
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img{
+    width: 30px;
+    height: auto;
+}
+
+/* Class Selectors */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
