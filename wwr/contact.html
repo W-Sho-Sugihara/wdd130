@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="W Sho Sugihara">
+    <meta name="description" content="A contact page for SPLASH with ways to contact the company.">
+    <link rel="stylesheet" href="styles/rafting.css"> 
+</head>
+<body>
+    <header class="grid-2">
+        <img src="images/z-splash.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>SPLASH - White Water Rafting</h1>
+        <div class="flex-col padding_20">
+            <p>1234 Kolob Canyon</p>
+            <p>New Harmony, UT 84757, United States</p>
+            <p>+1 999 999 9999</p>
+            <p>info@splash.com</p>
+       </div>
+       <section class="flex-row flex_centered">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.6125232475433!2d-113.15626142370834!3d37.42263243236611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca91afad231a8f%3A0xec6734a36c88eb1f!2sKolob%20Canyons!5e0!3m2!1sen!2sjp!4v1775318666557!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="flex-col flex_space_between h_full padding_20">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <div class="flex-row gap-6 m-bottom-10 flex_centered">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required />
+                    </div>
+
+                    <div class="flex-row gap-6 m-bottom-10 flex_centered">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                    </div>
+
+                    <div class="flex-row gap-6 m-bottom-10 flex_centered">
+                        <label>Purpose of Message</label>
+                        <div class="flex-col flex_left radio-group">
+                            <label class="flex-row flex_centered">
+                                <input type="radio" name="purpose" value="general-inquiry" required />
+                            General Inquiry
+                            </label>
+                            <label class="flex-row flex_centered">
+                                <input type="radio" name="purpose" value="reservation-question" />
+                            Reservation Question
+                            </label>
+                            <label class="flex-row flex_centered">
+                                <input type="radio" name="purpose" value="website-suggestion" />
+                            Website Suggestion
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="flex-col gap-6 m-bottom-10">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <div class="flex-row checkbox-group gap-6 m-bottom-10">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe" />
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Send My Message</button>
+                </form>
+            </div>
+       </section>
+       <section class="employee-container">
+        <h2>We Are Here to Serve You</h2>
+            <div  class="flex-row flex_centered width-full flex_space_around">
+                <div>
+                    <figure class="fig">
+                        <img src="images/employee1.jpg" alt="employee one">
+                    </figure>
+                    <figcaption>Employee One</figcaption>
+                </div>
+                <div>
+                    <figure class="fig">
+                        <img src="images/employee2.jpg" alt="employee two">
+                    </figure>
+                    <figcaption>Employee Two</figcaption>
+                </div>
+                <div>
+                    <figure class="fig">
+                        <img src="images/employee3.jpg" alt="employee three">
+                    </figure>
+                    <figcaption>Employee Threee</figcaption>
+                </div>
+            </div>
+       </section>
+    </main>
+    <footer class="grid-3">
+        <span></span>
+        <p>&copy;2026 SPLASH - White Water Rafting, W Sho Sugihara</p>
+        <nav class="socialmedia">
+            <a href=""><img src="images/facebook.svg" alt="Facebook media icon"></a>
+            <a href=""><img src="images/socialmedia-x.svg" alt="X media icon"></a>
+            <a href=""><img src="images/instagram.svg" alt="Instagram media icon"></a>
+        </nav>
+    </footer>
+</body>
+</html>
